@@ -5,7 +5,7 @@ Home: https://github.com/sgillies/affine
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Matrices describing affine transformation of the plane
 
