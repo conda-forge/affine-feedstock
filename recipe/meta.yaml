@@ -1,4 +1,4 @@
-{% set version = "2.0.0.post1" %}
+{% set version = "2.1.0" %}
 
 package:
     name: affine
@@ -7,7 +7,7 @@ package:
 source:
     fn: affine-{{ version }}.tar.gz
     url: https://pypi.io/packages/source/a/affine/affine-{{ version }}.tar.gz
-    md5: b7f4e2c86adc6575a7563c401d07f992
+    sha256: 5f97938c63195551d89237e241c435cdeb296b81bcfaa46140afc12cac7bc447
 
 build:
     number: 0
