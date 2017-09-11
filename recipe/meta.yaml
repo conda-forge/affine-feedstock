@@ -1,34 +1,34 @@
 {% set version = "2.1.0" %}
 
 package:
-    name: affine
-    version: {{ version }}
+  name: affine
+  version: {{ version }}
 
 source:
-    fn: affine-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/a/affine/affine-{{ version }}.tar.gz
-    sha256: 5f97938c63195551d89237e241c435cdeb296b81bcfaa46140afc12cac7bc447
+  url: https://pypi.io/packages/source/a/affine/affine-{{ version }}.tar.gz
+  sha256: 5f97938c63195551d89237e241c435cdeb296b81bcfaa46140afc12cac7bc447
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  noarch: python
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
+  build:
+    - python
+    - setuptools
+  run:
+    - python
 
 test:
-    imports:
-        - affine
+  imports:
+    - affine
 
 about:
-    home: https://github.com/sgillies/affine
-    license: BSD 3-Clause
-    summary: Matrices describing affine transformation of the plane
+  home: https://github.com/sgillies/affine
+  license: BSD 3-Clause
+  summary: 'Matrices describing affine transformation of the plane.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
+  recipe-maintainers:
+    - ocefpaf
