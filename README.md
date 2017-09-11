@@ -7,16 +7,14 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Matrices describing affine transformation of the plane
+Summary: Matrices describing affine transformation of the plane.
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/affine-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/affine-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/affine-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/affine-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/affine-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/affine-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/affine-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/affine-feedstock)
 
 Current release info
 ====================
