@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: affine
@@ -6,17 +6,17 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/affine/affine-{{ version }}.tar.gz
-  sha256: 5f97938c63195551d89237e241c435cdeb296b81bcfaa46140afc12cac7bc447
+  sha256: 0e56a6aaf8443366042daa4092a94907c18edf5aba22db9f5e47737b222f4b91
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
 
