@@ -14,12 +14,15 @@ Summary: Matrices describing affine transformation of the plane.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/affine-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/affine-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/affine-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/affine-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/affine/badges/version.svg)](https://anaconda.org/conda-forge/affine)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/affine/badges/downloads.svg)](https://anaconda.org/conda-forge/affine)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-affine-green.svg)](https://anaconda.org/conda-forge/affine) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/affine.svg)](https://anaconda.org/conda-forge/affine) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/affine.svg)](https://anaconda.org/conda-forge/affine) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/affine.svg)](https://anaconda.org/conda-forge/affine) |
 
 Installing affine
 =================
