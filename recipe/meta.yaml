@@ -26,7 +26,7 @@ test:
 
 about:
   home: https://github.com/sgillies/affine
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   summary: 'Matrices describing affine transformation of the plane.'
   license_family: BSD
   license_file: LICENSE.txt
