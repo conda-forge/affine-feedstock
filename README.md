@@ -3,13 +3,13 @@ About affine-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/affine-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/sgillies/affine
+Home: https://github.com/rasterio/affine/blob/main/README.rst
 
 Package license: BSD-3-Clause
 
-Summary: Matrices describing affine transformation of the plane.
+Summary: Matrices describing affine transformation of the plane
 
-Development: https://github.com/sgillies/affine
+Development: https://github.com/rasterio/affine
 
 The Affine package is used to produce the affine transformation
 matrix.
@@ -38,14 +38,14 @@ Current release info
 Installing affine
 =================
 
-Installing `affine` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `affine` from the `conda-forge/label/affine_dev` channel can be achieved by adding `conda-forge/label/affine_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/affine_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `affine` can be installed with `conda`:
+Once the `conda-forge/label/affine_dev` channel has been enabled, `affine` can be installed with `conda`:
 
 ```
 conda install affine
@@ -60,26 +60,26 @@ mamba install affine
 It is possible to list all of the versions of `affine` available on your platform with `conda`:
 
 ```
-conda search affine --channel conda-forge
+conda search affine --channel conda-forge/label/affine_dev
 ```
 
 or with `mamba`:
 
 ```
-mamba search affine --channel conda-forge
+mamba search affine --channel conda-forge/label/affine_dev
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search affine --channel conda-forge
+mamba repoquery search affine --channel conda-forge/label/affine_dev
 
 # List packages depending on `affine`:
-mamba repoquery whoneeds affine --channel conda-forge
+mamba repoquery whoneeds affine --channel conda-forge/label/affine_dev
 
 # List dependencies of `affine`:
-mamba repoquery depends affine --channel conda-forge
+mamba repoquery depends affine --channel conda-forge/label/affine_dev
 ```
 
 
@@ -149,5 +149,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@mwtoews](https://github.com/mwtoews/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
