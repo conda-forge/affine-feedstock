@@ -11,6 +11,8 @@ Summary: Matrices describing affine transformation of the plane
 
 Development: https://github.com/rasterio/affine
 
+Documentation: https://affine.readthedocs.io/
+
 The Affine package is used to produce the affine transformation
 matrix.
 
