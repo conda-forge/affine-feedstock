@@ -3,7 +3,7 @@ About affine-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/affine-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/rasterio/affine/blob/main/README.rst
+Home: https://github.com/rasterio/affine
 
 Package license: BSD-3-Clause
 

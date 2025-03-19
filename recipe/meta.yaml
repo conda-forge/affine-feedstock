@@ -33,7 +33,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/rasterio/affine/blob/main/README.rst
+  home: https://github.com/rasterio/affine
   summary: Matrices describing affine transformation of the plane
   dev_url: https://github.com/rasterio/affine
   license: BSD-3-Clause
@@ -41,6 +41,8 @@ about:
   description: |
     The Affine package is used to produce the affine transformation
     matrix.
+  doc_source_url: https://github.com/rasterio/affine/blob/main/README.rst
+  dev_url: https://github.com/rasterio/affine
 
 extra:
   recipe-maintainers:
