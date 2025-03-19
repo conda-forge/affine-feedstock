@@ -35,7 +35,6 @@ test:
 about:
   home: https://github.com/rasterio/affine
   summary: Matrices describing affine transformation of the plane
-  dev_url: https://github.com/rasterio/affine
   license: BSD-3-Clause
   license_file: LICENSE.txt
   description: |
