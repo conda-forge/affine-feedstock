@@ -1,5 +1,5 @@
 {% set name = "affine" %}
-{% set version = "2.4.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/affine-{{ version }}.tar.gz
-  sha256: a24d818d6a836c131976d22f8c27b8d3ca32d0af64c1d8d29deb7bafa4da1eea
+  sha256: 573514d5c37e98401a0ec34139c2b725d9f9ae4d074662f4b62a47d6a2ba9f06
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -20,6 +20,7 @@ requirements:
     - pip
     - flit-core >=3.2,<4
   run:
+    - attrs
     - python >={{ python_min }}
 
 test:
