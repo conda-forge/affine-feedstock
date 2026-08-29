@@ -24,13 +24,18 @@ requirements:
     - python >={{ python_min }}
 
 test:
+  source_files:
+    - tests
+  requires:
+    - numpy
+    - pip
+    - pytest
+    - python {{ python_min }}
   imports:
     - affine
   commands:
     - pip check
-  requires:
-    - pip
-    - python {{ python_min }}
+    - pytest
 
 about:
   home: https://github.com/sgillies/affine
